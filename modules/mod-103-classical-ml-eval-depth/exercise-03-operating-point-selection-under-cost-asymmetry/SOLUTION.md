@@ -204,8 +204,8 @@ Scored out of 10.
 | # | Criterion | Points | Passing evidence |
 |---|---|---|---|
 | R1 | Cost matrix is committed with cited sources | 2 | Each of `c_tp`, `c_fp`, `c_fn`, `c_tn` has a cited source; the unit and volume are named. |
-| R2 | Expected-cost sweep is computed, not a Youden/F1 shortcut | 2 | `E[cost | t]` curve is in the report; the minimum is named and justified against the cost model. |
-| R3 | 95% CI for t* and E[cost | t*] is reported | 1 | Bootstrap seed and resample count are committed; CIs appear in the decision record. |
+| R2 | Expected-cost sweep is computed, not a Youden/F1 shortcut | 2 | `E[cost \| t]` curve is in the report; the minimum is named and justified against the cost model. |
+| R3 | 95% CI for t* and E[cost \| t*] is reported | 1 | Bootstrap seed and resample count are committed; CIs appear in the decision record. |
 | R4 | Sensitivity sweep over ±30% on the dominant cost and over prevalence | 2 | Table of `t*` across the sweep is in the report; if `t*` is fragile, the chosen `t` is defended. |
 | R5 | Per-slice operating-point verification | 1 | No slice regresses beyond the committed floor at the global `t*`, or a per-slice decision is documented. |
 | R6 | Capacity constraint is honored | 1 | Predicted positive-prediction volume at `t*` is below any named capacity cap, or the constrained optimum is shipped instead. |

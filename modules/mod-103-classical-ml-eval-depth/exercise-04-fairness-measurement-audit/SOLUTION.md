@@ -42,9 +42,9 @@ Group-fairness metrics fall into three families. Most real audits require **at l
 
 | Family | Definition | What a learner-grade metric looks like | When it is appropriate |
 |---|---|---|---|
-| **Independence** (demographic parity) | `P(ŷ=1 | A=a)` equal across `a`. | Selection-rate ratio or difference per group. | Allocative decisions where equal opportunity to receive the allocation is the policy goal, and where disparate base rates are not accepted as an operational given. |
-| **Separation** (equalized odds) | `P(ŷ=1 | Y=y, A=a)` equal across `a` for each `y`. | TPR and FPR per group; parity measured by difference or ratio. | Decisions where the cost of a false positive and false negative are large, and where the group distribution of true labels is accepted. |
-| **Sufficiency** (calibration parity) | `P(Y=1 | Ŝ=s, A=a)` equal across `a` for each score `s`. | Reliability diagrams per group; per-group ECE (see exercise-02). | Decisions whose downstream pipeline uses the probability as a probability (routing, cost-sensitive thresholds, aggregated risk). |
+| **Independence** (demographic parity) | `P(ŷ=1 \| A=a)` equal across `a`. | Selection-rate ratio or difference per group. | Allocative decisions where equal opportunity to receive the allocation is the policy goal, and where disparate base rates are not accepted as an operational given. |
+| **Separation** (equalized odds) | `P(ŷ=1 \| Y=y, A=a)` equal across `a` for each `y`. | TPR and FPR per group; parity measured by difference or ratio. | Decisions where the cost of a false positive and false negative are large, and where the group distribution of true labels is accepted. |
+| **Sufficiency** (calibration parity) | `P(Y=1 \| Ŝ=s, A=a)` equal across `a` for each score `s`. | Reliability diagrams per group; per-group ECE (see exercise-02). | Decisions whose downstream pipeline uses the probability as a probability (routing, cost-sensitive thresholds, aggregated risk). |
 
 The written selection must do three things:
 
