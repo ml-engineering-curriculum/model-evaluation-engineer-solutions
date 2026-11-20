@@ -9,3 +9,4 @@
 | 2026-11-14 | `fill-mod-104-llm-benchmark-harnesses-solutions` | `mod-104-llm-benchmark-harnesses` | Fill mod-104-llm-benchmark-harnesses module exercise solutions |
 | 2026-11-17 | `fill-mod-105-llm-as-judge-platforms-solutions` | `mod-105-llm-as-judge-platforms` | Fill mod-105-llm-as-judge-platforms module exercise solutions |
 | 2026-11-19 | `fill-mod-106-human-evaluation-solutions` | `mod-106-human-evaluation` | Fill mod-106-human-evaluation module exercise solutions |
+| 2026-11-20 | `fill-mod-107-generative-and-multimodal-eval-solutions` | `mod-107-generative-and-multimodal-eval` | Fill mod-107-generative-and-multimodal-eval module exercise solutions |
