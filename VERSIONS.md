@@ -10,3 +10,4 @@
 | 2026-11-17 | `fill-mod-105-llm-as-judge-platforms-solutions` | `mod-105-llm-as-judge-platforms` | Fill mod-105-llm-as-judge-platforms module exercise solutions |
 | 2026-11-19 | `fill-mod-106-human-evaluation-solutions` | `mod-106-human-evaluation` | Fill mod-106-human-evaluation module exercise solutions |
 | 2026-11-20 | `fill-mod-107-generative-and-multimodal-eval-solutions` | `mod-107-generative-and-multimodal-eval` | Fill mod-107-generative-and-multimodal-eval module exercise solutions |
+| 2026-11-21 | `fill-mod-108-agent-and-tool-eval-solutions` | `mod-108-agent-and-tool-eval` | Fill mod-108-agent-and-tool-eval module exercise solutions |
