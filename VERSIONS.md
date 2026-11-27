@@ -13,3 +13,4 @@
 | 2026-11-21 | `fill-mod-108-agent-and-tool-eval-solutions` | `mod-108-agent-and-tool-eval` | Fill mod-108-agent-and-tool-eval module exercise solutions |
 | 2026-11-25 | `fill-mod-110-production-eval-regression-solutions` | `mod-110-production-eval-regression` | Fill mod-110-production-eval-regression module exercise solutions |
 | 2026-11-26 | `fill-mod-111-eval-platform-engineering-solutions` | `mod-111-eval-platform-engineering` | Fill mod-111-eval-platform-engineering module exercise solutions |
+| 2026-11-27 | `fill-mod-112-eval-systems-design-solutions` | `mod-112-eval-systems-design` | Fill mod-112-eval-systems-design module exercise solutions |
